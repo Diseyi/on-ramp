@@ -87,7 +87,6 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-        <div className=""></div>
       </div>
 
       <div className="px-2 flex flex-col justify-center items-center my-4">
