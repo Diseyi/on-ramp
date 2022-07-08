@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import Sidebar from './component/sidebar'
+import Header from './component/header';
 
 const App = () => {
 
   return (
    <div className="">
-    <Sidebar />
+ <Header />
    </div>
   )
 }
