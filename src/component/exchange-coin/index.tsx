@@ -5,7 +5,7 @@ import arrowdown from "../../assets/icons/arrowdown.svg";
 const ExchangeCoin = () => {
   return (
     <div className=" py-4 bg-[#1F1E3E] px-4 rounded w-[368px] ">
-      <div className="flex items-center justify-center border-b py-3 border-gray-500 ">
+      <div className="flex items-center justify-center  py-3 border-color-bottom ">
         <button className=" text-[#BCBCC6] text-base font-medium px-5 py-3 ">
           Buy
         </button>
@@ -21,7 +21,7 @@ const ExchangeCoin = () => {
       </div>
 
       <div className="flex gap-2 flex-col">
-        <div className="border rounded-xl py-2 px-4 border-gray-500 my-4">
+        <div className="border rounded-xl py-2 px-4 border-color my-4">
           <div className=" text-[#BCBCC6] text-xs ">Bitcoin price</div>
           <div className="flex justify-between py-3 items-center">
             <div className="flex gap-2 items-center">
@@ -35,7 +35,7 @@ const ExchangeCoin = () => {
           </div>
         </div>
 
-        <div className="border rounded-xl py-2 px-4 border-gray-500 my-4">
+        <div className="border rounded-xl py-2 px-4 border-color my-4">
           <div className=" text-[#BCBCC6] text-xs ">You amount</div>
           <div className="flex justify-between py-3 items-center">
             <div className="font-semibold text-base text-white">
@@ -48,7 +48,7 @@ const ExchangeCoin = () => {
           </div>
         </div>
 
-        <div className="border rounded-xl py-2 px-4 border-gray-500 my-4">
+        <div className="border rounded-xl py-2 px-4 border-color my-4">
           <div className=" text-[#BCBCC6] text-xs ">You receive</div>
           <div className="flex justify-between py-3 items-center">
             <div className="font-semibold text-base text-white">3.943.00</div>

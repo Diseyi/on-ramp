@@ -7,11 +7,12 @@ import ethereum from "../../assets/icons/ethereum.svg";
 import bitcoin from "../../assets/icons/bitcoin.svg";
 import select from "../../assets/icons/select.svg";
 import graph from "../../assets/icons/graph.svg";
+import pinkgraph from "../../assets/icons/pinkgraph.svg";
 
 const MarketTable = () => {
   return (
     <div className="bg-[#1F1E3E] py-4 px-4  ">
-      <div className="flex justify-between border-b py-3 border-gray-500  items-center">
+      <div className="flex justify-between border-b py-3 border-color-bottom  items-center">
         <h3 className="font-bold text-lg text-white">Explore market </h3>
         <div className="flex items-center gap-3 px-8 ">
           <img src={filter} alt="" className="" />
@@ -135,7 +136,7 @@ const MarketTable = () => {
               </td>
 
               <td className="flex items-center py-2 gap-2">
-                <img src={graph} alt="" className="w-8 h-8" />
+                <img src={pinkgraph} alt="" className="w-8 h-8" />
                 <div className="text-[#4FDFB1] font-semibold text-sm">
                   +56.9%
                 </div>

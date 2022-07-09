@@ -3,6 +3,7 @@ import tether from "../../assets/icons/tether.svg";
 import btc from "../../assets/icons/btc.svg";
 import ethereum from "../../assets/icons/ethereum.svg";
 import graph from "../../assets/icons/graph.svg";
+import pinkgraph from "../../assets/icons/pinkgraph.svg";
 
 const CoinInfo = () => {
   return (
@@ -37,7 +38,7 @@ const CoinInfo = () => {
           </div>
         </div>
         <div className="">
-          <img src={graph} alt="" className="" />
+          <img src={pinkgraph} alt="" className="" />
         </div>
         <div className="">
           <div className="font-semibold text-xl text-[#BCBCC6] ">$546.78</div>

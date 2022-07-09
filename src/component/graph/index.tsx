@@ -1,6 +1,14 @@
 import React from "react";
 import candlesticks from "../../assets/icons/candlesticks.svg";
-import magnet from "../../assets/icons/magnet.svg";
+import settings from "../../assets/icons/settings.svg";
+import indicator from "../../assets/icons/indicator.svg";
+import circleplus from "../../assets/icons/circleplus.svg";
+import marketCap from "../../assets/icons/market-cap.svg";
+import stairs from "../../assets/icons/stairs.svg";
+import spread from "../../assets/icons/spread.svg";
+import candle from "../../assets/icons/candle.svg";
+import camera from "../../assets/icons/camera.svg";
+import arrowdown from "../../assets/icons/arrowdown.svg";
 
 const Graph = () => {
   return (
@@ -10,45 +18,45 @@ const Graph = () => {
           <div className="flex items-center gap-2 ">
             <div className="text-[#C4C4C4] text-xs">1m</div>
             <div className="text-[#C4C4C4] text-xs">30m</div>
-            <div className="flex text-[#C4C4C4] items-center text-xs">
-              1h <img src={magnet} alt="" className="w-3 h-3" />
+            <div className="flex text-[#FDDB92] gap-1 items-center text-xs">
+              1h <img src={arrowdown} alt="" className="w-2 h-2" />
             </div>
           </div>
           <div className="flex gap-2">
             <div className="w-6 h-6">
-              <img src={magnet} alt="" className="" />
+              <img src={candle} alt="" className="" />
             </div>
             <div className="w-6 h-6">
-              <img src={magnet} alt="" className="" />
+              <img src={marketCap} alt="" className="" />
             </div>
             <div className="w-6 h-6">
-              <img src={magnet} alt="" className="" />
+              <img src={stairs} alt="" className="" />
             </div>
           </div>
         </div>
         <div className="flex gap-4">
           <div className=" items-center flex">
             <div className="w-6 h-6">
-              <img src={magnet} alt="" className="" />
+              <img src={indicator} alt="" className="" />
             </div>
             <div className="text-[#C4C4C4] text-xs">Indicators</div>
           </div>
           <div className=" items-center flex">
             <div className="w-6 h-6">
-              <img src={magnet} alt="" className="" />
+              <img src={circleplus} alt="" className="" />
             </div>
             <div className="text-[#C4C4C4] text-xs">Compare</div>
           </div>
         </div>
         <div className="flex gap-2">
           <div className="w-6 h-6">
-            <img src={magnet} alt="" className="" />
+            <img src={spread} alt="" className="" />
           </div>
           <div className="w-6 h-6">
-            <img src={magnet} alt="" className="" />
+            <img src={camera} alt="" className="" />
           </div>
           <div className="w-6 h-6">
-            <img src={magnet} alt="" className="" />
+            <img src={settings} alt="" className="" />
           </div>
         </div>
       </div>
@@ -85,73 +93,73 @@ const Graph = () => {
       <div className="relative">
         <div className="flex  gap-4 flex-col">
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
           </div>
           <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-gray-500"></div>
+            <div className="flex-1  border-b border-color"></div>
             <div className="text-xs text-[#C4C4C4] font-semibold ">
               $0.06642
             </div>
@@ -161,7 +169,7 @@ const Graph = () => {
           <img src={candlesticks} alt="" className="" />
         </div>
       </div>
-      <div className="flex text-[#C4C4C4] justify-between pr-10">
+      <div className="flex text-[#C4C4C4] justify-between pr-20">
         <div className="">08:00</div>
         <div className="">08:00</div>
         <div className="">08:00</div>
