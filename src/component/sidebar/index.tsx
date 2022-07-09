@@ -9,7 +9,7 @@ import transaction from "../../assets/icons/transaction.svg";
 
 const Sidebar = () => {
   return (
-    <div className="w-60 bg-[#1F1E3E] py-8 h-screen overflow-scroll ">
+    <div className="w-60 bg-[#1F1E3E] py-8 h-screen overflow-y-scroll ">
       <div className="px-8">
         <div className=" flex items-center mb-4 ">
           <img src={logo} alt="logo" className="" />
