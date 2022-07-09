@@ -10,12 +10,12 @@ import Sidebar from "../../component/sidebar";
 
 const Dashboard = () => {
   return (
-    <div className="flex bg-[#181736]  ">
+    <div className="flex bg-[#181736] h-screen  ">
       <div className=" w-60">
         <Sidebar />
       </div>
 
-      <div className=" px-8 py-2 w-full h-screen overflow-scroll ">
+      <div className=" px-8 py-2 w-full h-screen overflow-y-scroll ">
         <Header />
         <CoinInfo />
         <div className="my-2 flex gap-3 w-full">
