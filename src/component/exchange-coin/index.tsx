@@ -3,6 +3,12 @@ import bitcoin from "../../assets/icons/bitcoin.svg";
 import arrowdown from "../../assets/icons/arrowdown.svg";
 
 const ExchangeCoin = () => {
+  const [value, setValue] = React.useState("$443,943.00");
+  
+  const handleChange = (e: any) => {
+    setValue(e.target.value);
+  }
+
   return (
     <div className=" py-4 bg-[#1F1E3E] px-4 rounded w-[368px] ">
       <div className="flex items-center justify-center  py-3 border-color-bottom ">
@@ -37,9 +43,9 @@ const ExchangeCoin = () => {
 
         <div className="border rounded-xl py-2 px-4 border-color my-4">
           <div className=" text-[#BCBCC6] text-xs ">You amount</div>
-          <div className="flex justify-between py-3 items-center">
+          <div className="flex justify-between py-2 items-center">
             <div className="font-semibold text-base text-white">
-              $443,943.00
+              <input type="text" name="" id="" value={value} onChange={handleChange} className="bg-transparent p-1" />
             </div>
             <div className="flex gap-1 items-center">
               <div className="font-semibold text-xs text-[#BCBCC6] ">USD</div>
