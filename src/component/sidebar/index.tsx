@@ -72,7 +72,7 @@ const Sidebar = () => {
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={setting} alt="logo" className="" />
               </div>
-              <span className="text-xl text-white ">Settings</span>
+              <span className="text-xl text-[#BCBCC6] ">Settings</span>
             </div>
 
             <div className=" gap-x-2.5 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
