@@ -1,14 +1,13 @@
-import React from 'react'
-import './App.css'
-import Header from './component/header';
+import React from "react";
+import "./App.css";
+import CoinInfo from "./component/coin";
 
 const App = () => {
-
   return (
-   <div className="">
- <Header />
-   </div>
-  )
-}
+    <div className="">
+      <CoinInfo />
+    </div>
+  );
+};
 
-export default App
+export default App;
