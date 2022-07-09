@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import MarketTable from "./component/market-table";
-
+import Dashboard from "./page/dashboard";
 
 const App = () => {
   return (
     <div className="">
-    <MarketTable />
+      <Dashboard />
     </div>
   );
 };

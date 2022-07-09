@@ -13,7 +13,7 @@ const MarketTable = () => {
     <div className="bg-[#1F1E3E] py-4 px-4  ">
       <div className="flex justify-between border-b py-3 border-gray-500  items-center">
         <h3 className="font-bold text-lg text-white">Explore market </h3>
-        <div className="flex items-center gap-2 ">
+        <div className="flex items-center gap-3 px-8 ">
           <img src={filter} alt="" className="" />
           <img src={download} alt="" className="" />
         </div>
@@ -23,7 +23,7 @@ const MarketTable = () => {
         <table className="w-full">
           <thead className="w-full bg-[#282849] ">
             <tr className="text-left ">
-              <th className="py-2">
+              <th className="py-2 pr-3">
                 <input type="checkbox" name="" id="" disabled />
               </th>
 
