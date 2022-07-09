@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import CoinInfo from "./component/coin";
+import ExchangeCoin from "./component/exchange-coin";
 
 const App = () => {
   return (
     <div className="">
-      <CoinInfo />
+     <ExchangeCoin />
     </div>
   );
 };
