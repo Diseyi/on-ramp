@@ -9,6 +9,14 @@
     
 }
 
+.border-color {
+    border: 1px solid rgba(219, 226, 255, 0.18)
+}
+
+.border-color-bottom {
+    border-bottom: 1px solid rgba(219, 226, 255, 0.18)
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }

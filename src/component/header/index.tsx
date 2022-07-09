@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className="text-white font-bold text-2xl">On-ramp Exchanger</h1>
       </div>
       <div className="flex items-center gap-4">
-        <div className="relative bg-[#1F1E3E]  ">
+        <div className=" w-[394px] relative bg-[#1F1E3E]  ">
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <svg
               className="w-5 h-5 text-[#BCBCC6] "

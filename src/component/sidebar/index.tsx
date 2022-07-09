@@ -6,6 +6,9 @@ import portfolio from "../../assets/icons/portfolio.svg";
 import trade from "../../assets/icons/trade.svg";
 import message from "../../assets/icons/message.svg";
 import transaction from "../../assets/icons/transaction.svg";
+import setting from "../../assets/icons/setting.svg";
+import about from "../../assets/icons/about.svg";
+import help from "../../assets/icons/help.svg";  
 
 const Sidebar = () => {
   return (
@@ -15,7 +18,7 @@ const Sidebar = () => {
           <img src={logo} alt="logo" className="" />
           <span className="text-4xl text-white">ramp</span>
         </div>
-        <div className="flex flex-col gap-4 border-b py-10">
+        <div className="flex flex-col gap-4 border-color-bottom py-10">
           <div className="uppercase text-[#BCBCC6] text-sm ">Menu</div>
           <div className="flex flex-col gap-4">
             <div className=" gap-x-2 flex items-center">
@@ -67,21 +70,21 @@ const Sidebar = () => {
           <div className="flex flex-col gap-4">
             <div className=" gap-x-2 flex items-center">
               <div className="w-7 h-7 flex justify-left  items-center">
-                <img src={exchange} alt="logo" className="" />
+                <img src={setting} alt="logo" className="" />
               </div>
               <span className="text-xl text-white ">Settings</span>
             </div>
 
             <div className=" gap-x-2.5 flex items-center">
               <div className="w-7 h-7 flex justify-left  items-center">
-                <img src={analytic} alt="logo" className="" />
+                <img src={help} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">Help</span>
             </div>
 
             <div className=" gap-x-2 flex items-center">
               <div className="w-7 h-7 flex justify-left  items-center">
-                <img src={portfolio} alt="logo" className="" />
+                <img src={about} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">About us</span>
             </div>

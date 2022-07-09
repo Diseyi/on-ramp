@@ -7,14 +7,14 @@ import down from "../../assets/icons/down.svg";
 const Balance = () => {
   return (
     <div className="py-4 bg-dark-opacity px-4 rounded w-[368px]">
-      <div className="flex justify-between border-b py-3 border-gray-500  items-center">
+      <div className="flex justify-between border-b py-3 border-color-bottom  items-center">
         <h3 className="font-bold text-lg text-white">Total Balance </h3>
         <div className="">
           <img src={menu} alt="" className="" />
         </div>
       </div>
 
-      <div className="border-b border-gray-500 py-2  my-4">
+      <div className="border-b border-color-bottom py-2  my-4">
         <div className=" text-[#BCBCC6] text-xs ">My Balance</div>
         <div className="flex  py-2 items-center">
           <div className="font-semibold text-base text-white">$823,232.76</div>
