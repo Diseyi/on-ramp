@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Balance from "./component/balance";
+import MarketTable from "./component/market-table";
 
 
 const App = () => {
   return (
     <div className="">
-     <Balance />
+    <MarketTable />
     </div>
   );
 };
