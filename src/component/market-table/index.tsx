@@ -25,7 +25,7 @@ const MarketTable = () => {
           <thead className="w-full bg-[#282849] ">
             <tr className="text-left ">
               <th className="py-2 pr-3">
-                <input type="checkbox" name="" id="" disabled />
+                <input type="checkbox" name="" id=""  />
               </th>
 
               <th className="py-2">
@@ -87,7 +87,7 @@ const MarketTable = () => {
           <tbody className="">
             <tr className="">
               <td className="py-2">
-                <input type="checkbox" name="" id="" disabled />
+                <input type="checkbox" name="" id=""  />
               </td>
 
               <td className="flex items-center py-2 gap-2">
@@ -123,7 +123,7 @@ const MarketTable = () => {
 
             <tr className="">
               <td className="py-2">
-                <input type="checkbox" name="" id="" disabled />
+                <input type="checkbox" name="" id=""  />
               </td>
 
               <td className="flex items-center py-2 gap-2">
@@ -159,7 +159,7 @@ const MarketTable = () => {
 
             <tr className="">
               <td className="py-2">
-                <input type="checkbox" name="" id="" disabled />
+                <input type="checkbox" name="" id=""  />
               </td>
 
               <td className="flex items-center py-2 gap-2">
@@ -195,7 +195,7 @@ const MarketTable = () => {
 
             <tr className="">
               <td className="py-2">
-                <input type="checkbox" name="" id="" disabled />
+                <input type="checkbox" name="" id=""  />
               </td>
 
               <td className="flex items-center py-2 gap-2">
