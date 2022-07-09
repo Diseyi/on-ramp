@@ -13,8 +13,8 @@ import arrowdown from "../../assets/icons/arrowdown.svg";
 const Graph = () => {
   return (
     <div className=" w-full ">
-      <div className="flex gap-8">
-        <div className="flex items-center gap-4 ">
+      <div className="flex gap-10">
+        <div className="flex items-center gap-6 ">
           <div className="flex items-center gap-2 ">
             <div className="text-[#C4C4C4] text-xs">1m</div>
             <div className="text-[#C4C4C4] text-xs">30m</div>
