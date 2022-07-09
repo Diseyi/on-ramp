@@ -18,45 +18,45 @@ const Sidebar = () => {
           <img src={logo} alt="logo" className="" />
           <span className="text-4xl text-white">ramp</span>
         </div>
-        <div className="flex flex-col gap-4 border-color-bottom py-10">
+        <div className="flex flex-col gap-3 border-color-bottom py-10">
           <div className="uppercase text-[#BCBCC6] text-sm ">Menu</div>
           <div className="flex flex-col gap-4">
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center px-2 py-2">
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={exchange} alt="logo" className="" />
               </div>
               <span className="text-xl text-white ">Exchanger</span>
             </div>
 
-            <div className=" gap-x-2.5 flex items-center">
+            <div className=" gap-x-2.5 flex items-center hover:bg-[#353759] px-2 py-2 rounded cursor-pointer ">
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={analytic} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">Analytic</span>
             </div>
 
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center p hover:bg-[#353759] px-2 py-2 rounded cursor-pointer   ">
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={portfolio} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">Portfolio</span>
             </div>
 
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
               <div className="w-7 h-7 flex justify-left items-center">
                 <img src={trade} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6] ">Trade</span>
             </div>
 
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
               <div className="w-7 h-7 flex justify-left items-center">
                 <img src={message} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6] ">Message</span>
             </div>
 
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
               <div className="w-7 h-7 flex justify-left items-center">
                 <img src={transaction} alt="logo" className="" />
               </div>
@@ -68,21 +68,21 @@ const Sidebar = () => {
         <div className="flex flex-col gap-4 py-10 ">
           <div className="uppercase text-[#BCBCC6] text-sm ">Others</div>
           <div className="flex flex-col gap-4">
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={setting} alt="logo" className="" />
               </div>
               <span className="text-xl text-white ">Settings</span>
             </div>
 
-            <div className=" gap-x-2.5 flex items-center">
+            <div className=" gap-x-2.5 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={help} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">Help</span>
             </div>
 
-            <div className=" gap-x-2 flex items-center">
+            <div className=" gap-x-2 flex items-center  hover:bg-[#353759] px-2 py-2 rounded cursor-pointer  ">
               <div className="w-7 h-7 flex justify-left  items-center">
                 <img src={about} alt="logo" className="" />
               </div>

@@ -6,13 +6,13 @@ const ExchangeCoin = () => {
   return (
     <div className=" py-4 bg-[#1F1E3E] px-4 rounded w-[368px] ">
       <div className="flex items-center justify-center  py-3 border-color-bottom ">
-        <button className=" text-[#BCBCC6] text-base font-medium px-5 py-3 ">
+        <button className=" text-[#BCBCC6] text-base hover:bg-[#353759] rounded font-medium px-5 py-3 ">
           Buy
         </button>
-        <button className=" text-[#BCBCC6] text-base font-medium px-5 py-3 ">
+        <button className=" text-[#BCBCC6] text-base hover:bg-[#353759] rounded font-medium px-5 py-3 ">
           Sell
         </button>
-        <button className=" text-[#BCBCC6] text-base font-medium px-5 py-3 ">
+        <button className=" text-[#BCBCC6] text-base hover:bg-[#353759] rounded font-medium px-5 py-3 ">
           Send
         </button>
         <button className=" text-base  rounded text-[#D6D6DB] font-semibold bg-[#353759] px-5 py-3 ">
@@ -61,7 +61,9 @@ const ExchangeCoin = () => {
       </div>
 
       <div className="">
-        <button className="bg-[#2B85FF] block w-full py-3 font-semibold text-base text-white rounded my-1  ">Exchange USD</button>
+        <button className="bg-[#2B85FF] block w-full py-3 font-semibold text-base text-white rounded my-1  ">
+          Exchange USD
+        </button>
       </div>
     </div>
   );
