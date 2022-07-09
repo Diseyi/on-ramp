@@ -6,9 +6,8 @@ import graph from "../../assets/icons/graph.svg";
 
 const CoinInfo = () => {
   return (
-    <div className="flex justify-between my-4 gap-4  items-center">
-      <div className=" flex flex-1 gap-4">
-          <div className="bg-[#1F1E3E] w-1/2 flex items-center rounded gap-6 px-6 py-7  ">
+    <div className="flex justify-between my-4  items-center">
+      <div className="bg-[#1F1E3E] flex items-center rounded gap-6 px-6 py-7 w-[368px] ">
         <div className="flex items-center gap-4 ">
           <div className="w-8 h-8">
             <img src={tether} alt="crypo coin" className="" />
@@ -27,7 +26,7 @@ const CoinInfo = () => {
         </div>
       </div>
 
-      <div className="bg-[#1F1E3E] w-1/2 flex items-center rounded gap-6 px-6 py-7  ">
+      <div className="bg-[#1F1E3E] flex items-center rounded gap-6 px-6 py-7 w-[368px] ">
         <div className="flex items-center gap-4 ">
           <div className="w-8 h-8">
             <img src={ethereum} alt="crypo coin" className="" />
@@ -45,8 +44,6 @@ const CoinInfo = () => {
           <div className="text-[#4FDFB1] text-sm ">+56.9%</div>
         </div>
       </div>
-      </div>
-    
 
       <div className="bg-[#1F1E3E] flex items-center rounded gap-6 px-6 py-7 w-[368px] ">
         <div className="flex items-center gap-4 ">
