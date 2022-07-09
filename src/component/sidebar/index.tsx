@@ -6,13 +6,10 @@ import portfolio from "../../assets/icons/portfolio.svg";
 import trade from "../../assets/icons/trade.svg";
 import message from "../../assets/icons/message.svg";
 import transaction from "../../assets/icons/transaction.svg";
-import setting from "../../assets/icons/setting.svg";
-import about from "../../assets/icons/about.svg";
-import help from "../../assets/icons/help.svg";
 
 const Sidebar = () => {
   return (
-    <div className="w-60 bg-[#1F1E3E] py-8 ">
+    <div className="w-60 bg-[#1F1E3E] py-8 h-screen overflow-scroll ">
       <div className="px-8">
         <div className=" flex items-center mb-4 ">
           <img src={logo} alt="logo" className="" />
@@ -70,26 +67,27 @@ const Sidebar = () => {
           <div className="flex flex-col gap-4">
             <div className=" gap-x-2 flex items-center">
               <div className="w-7 h-7 flex justify-left  items-center">
-                <img src={setting} alt="logo" className="" />
+                <img src={exchange} alt="logo" className="" />
               </div>
               <span className="text-xl text-white ">Settings</span>
             </div>
 
             <div className=" gap-x-2.5 flex items-center">
               <div className="w-7 h-7 flex justify-left  items-center">
-                <img src={help} alt="logo" className="" />
+                <img src={analytic} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">Help</span>
             </div>
 
             <div className=" gap-x-2 flex items-center">
               <div className="w-7 h-7 flex justify-left  items-center">
-                <img src={about} alt="logo" className="" />
+                <img src={portfolio} alt="logo" className="" />
               </div>
               <span className="text-xl text-[#BCBCC6]  ">About us</span>
             </div>
           </div>
         </div>
+        <div className=""></div>
       </div>
 
       <div className="px-2 flex flex-col justify-center items-center my-4">
