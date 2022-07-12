@@ -9,6 +9,7 @@ import spread from "../../assets/icons/spread.svg";
 import candle from "../../assets/icons/candle.svg";
 import camera from "../../assets/icons/camera.svg";
 import arrowdown from "../../assets/icons/arrowdown.svg";
+import CandleChart from "../candle-chart";
 
 const Graph = () => {
   return (
@@ -90,96 +91,10 @@ const Graph = () => {
           </div>
         </div>
       </div>
-      <div className="relative">
-        <div className="flex  gap-4 flex-col">
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-          <div className="flex  items-center justify-center gap-4 w-full">
-            <div className="flex-1  border-b border-color"></div>
-            <div className="text-xs text-[#C4C4C4] font-semibold ">
-              $0.06642
-            </div>
-          </div>
-        </div>
-        <div className="absolute bottom-10 left-10">
-          <img src={candlesticks} alt="" className="" />
-        </div>
+      <div className="">
+        <CandleChart />
       </div>
-      <div className="flex text-[#C4C4C4] justify-between pr-20">
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-        <div className="">08:00</div>
-      </div>
+      
     </div>
   );
 };

@@ -20,7 +20,7 @@ const Dashboard = () => {
         <CoinInfo />
         <div className="my-2 flex gap-3 w-full">
           <div className="flex-1 space-y-6">
-            <div className="flex px-6 bg-[#1F1E3E] w-full gap-6 py-4 rounded">
+            <div className="flex flex-row-reverse  px-6 bg-[#1F1E3E] w-full gap-6 py-4 rounded">
               <PickIcon />
               <Graph />
             </div>
